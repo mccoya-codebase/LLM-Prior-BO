@@ -1,0 +1,26 @@
+{
+    "paper_title": "Algorithms for the self-optimisation of chemical reactions",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "Local optimization algorithms (e.g., Nelder-Mead simplex, steepest descent) are fast but may converge on a local optimum, making them suitable for systems assumed to have a single optimum.",
+        "Global optimization algorithms (e.g., SNOBFIT) are more robust for noisy systems or complex response surfaces with multiple optima, as they balance exploration and exploitation.",
+        "Bayesian optimization uses a surrogate model (e.g., Gaussian Process) and an acquisition function to efficiently suggest new experiments, making it ideal for expensive-to-evaluate chemical systems.",
+        "Multi-objective optimization algorithms (e.g., TSEMO) are required when optimizing for conflicting objectives (e.g., yield vs. cost), generating a Pareto front of optimal trade-off solutions.",
+        "Most documented self-optimization algorithms struggle with a combination of discrete (e.g., solvent, catalyst) and continuous variables, representing an area for future development."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This is a review paper on algorithms for the self-optimization of chemical reactions. It does not present primary experimental data for a specific reaction but discusses various algorithmic approaches (local, global, multi-objective) and cites their application in optimizing different chemical systems from prior literature."
+    }
+}

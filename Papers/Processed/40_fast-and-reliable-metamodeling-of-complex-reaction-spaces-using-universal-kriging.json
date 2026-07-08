@@ -1,0 +1,20 @@
+{
+    "paper_title": "Fast and Reliable Metamodeling of Complex Reaction Spaces Using Universal Kriging",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This paper describes a computational method (Universal Kriging) for modeling the reaction space of inorganic nanoparticle (CdSe and CdSeTe quantum dots) synthesis in a microfluidic reactor. It does not investigate or pertain to organic cross-coupling reactions. The model predicts product properties (fluorescence characteristics) as a function of precursor ratios and residence time."
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "paper_title": "Improving quality of ligand-binding site prediction with Bayesian optimization",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "This paper does not describe a chemical reaction.",
+        "The research focuses on a machine learning algorithm (P2Rank) for predicting ligand-binding sites on proteins.",
+        "Bayesian optimization is used to tune the parameters of the computational algorithm, not a chemical reaction.",
+        "The paper provides no insights into chemical reaction mechanisms or trends."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "The paper reports on the performance of a computational algorithm, not chemical reaction outcomes. It uses metrics like 'identification success rates' and 'overlap ratio' to evaluate its prediction quality. The work is unrelated to synthetic chemistry."
+    }
+}

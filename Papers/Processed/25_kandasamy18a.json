@@ -1,0 +1,26 @@
+{
+    "paper_title": "Parallelised Bayesian Optimisation via Thompson Sampling",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "This paper is purely computational and does not study any chemical reactions. It develops a Bayesian Optimization algorithm.",
+        "Asynchronous parallel Thompson Sampling (asyTS) is highly effective when function evaluation times have high variability, as it minimizes worker idle time.",
+        "Synchronous parallel Thompson Sampling (synTS) may be preferred if evaluation times are deterministic and equal, as it uses more complete information for each batch of queries.",
+        "The inherent randomness of Thompson Sampling is generally sufficient to ensure diversity in parallel evaluations, and explicit diversity-enforcing schemes may not improve performance.",
+        "The performance of parallel Thompson Sampling with 'n' evaluations distributed among 'M' workers is theoretically shown to be nearly as effective as performing 'n' evaluations sequentially."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": "The paper does not describe a chemical reaction. The best performing computational algorithm was asynchronous Thompson Sampling (asyTS) for optimizing functions with variable evaluation times, as demonstrated in hyperparameter tuning of a convolutional neural network.",
+        "notes": "This is a computer science paper on a general optimization algorithm. It does not contain any experimental chemistry. The relevance to cross-coupling is that the described algorithm could potentially be used to optimize such reactions, but the paper itself does not do so."
+    }
+}

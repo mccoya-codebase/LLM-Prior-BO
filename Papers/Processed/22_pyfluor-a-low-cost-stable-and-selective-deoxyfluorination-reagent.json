@@ -1,0 +1,26 @@
+{
+    "paper_title": "PyFluor: A Low-Cost, Stable, and Selective Deoxyfluorination Reagent",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": "DBU (1,8-diazabicyclo[5.4.0]undec-7-ene) or MTBD (7-methyl-1,5,7-triazabicyclo[4.4.0]dec-5-ene)",
+        "additive": null,
+        "electrophile": "Alcohol (activated in situ by PyFluor to form a sulfonate ester)",
+        "nucleophile": "Fluoride (from PyFluor, delivered via an amidine hydrogen fluoride intermediate)",
+        "solvent": "Toluene"
+    },
+    "mechanistic_insights": [
+        "Strong amidine or guanidine bases (e.g., DBU, MTBD) are uniquely effective, functioning as Br\u00f8nsted bases to facilitate the reaction.",
+        "The fluorination proceeds with inversion of stereochemistry, consistent with an SN2 mechanism on the in situ-formed sulfonate ester intermediate.",
+        "A key limitation is that \u03b2-hydroxy carbonyl compounds with acidic \u03b1-protons undergo exclusive elimination.",
+        "Unhindered benzylic alcohols provide only moderate yields due to a competitive side reaction where the base attacks the sulfonate intermediate.",
+        "The reaction is highly selective for fluorination over elimination for most primary and secondary alcohols, which is a significant advantage over reagents like DAST."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For a model secondary alcohol: 1.1 equiv 2-pyridinesulfonyl fluoride (PyFluor), 2.0 equiv DBU, in toluene (0.4 M) at room temperature for 72h, affording 79% yield with >20:1 selectivity (fluorination:elimination).",
+        "notes": "The method is general for a broad scope of primary and secondary alcohols, including complex molecules like carbohydrates, steroids, and amino acids, with high functional group tolerance. The reaction is scalable (demonstrated on a 5g scale) and the high selectivity against elimination simplifies purification. The reagent is also adaptable for no-carrier-added [18F] deoxy-radiofluorination."
+    }
+}

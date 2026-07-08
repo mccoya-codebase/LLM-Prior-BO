@@ -1,0 +1,26 @@
+{
+    "paper_title": "Photoredox Iridium-Nickel Dual-Catalyzed Decarboxylative Arylation Cross-Coupling: From Batch to Continuous Flow via Self-Optimizing Segmented Flow Reactor",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Ir[dF(CF3)ppy]2(dtbbpy)PF6 (photocatalyst) and NiCl2(dtbbpy) (cross-coupling precatalyst)",
+        "ligand": "4,4\u2032-di-tert-butyl-2,2\u2032-dipyridine (dtbbpy)",
+        "base": "2-tert-butyl-1,1,3,3-tetramethylguanidine (tBu-TMG / Barton's base)",
+        "additive": null,
+        "electrophile": "4'-bromoacetophenone",
+        "nucleophile": "N-Benzyloxycarbonyl-L-proline (Cbz-Pro-OH)",
+        "solvent": "DMF"
+    },
+    "mechanistic_insights": [
+        "Temperature is a critical parameter influencing reaction rates and productivity; elevated temperatures (e.g., 30-65 \u00b0C) generally accelerate the reaction, especially for less reactive substrates.",
+        "The nickel catalyst is involved in the rate-determining step, as increasing its loading significantly increases the reaction rate, whereas varying the iridium photocatalyst loading has little effect.",
+        "Strong, non-coordinating organic bases, particularly guanidine-type bases like tBu-TMG (Barton's base) and TMG, provide the highest yields and fastest rates in a homogeneous system.",
+        "Aryl halide reactivity is strongly influenced by electronics; substrates lacking electron-withdrawing groups or heteroatoms (e.g., 1-bromo-4-ethylbenzene) are significantly less reactive than electron-poor aryl halides (e.g., 4'-bromoacetophenone).",
+        "The organic photocatalyst 4CzIPN can replace the iridium catalyst, but it results in lower maximal yields (60-70% vs >95%) under the tested conditions."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For the model reaction of Cbz-Pro-OH and 4'-bromoacetophenone, the self-optimizing system identified maximal yield (97%) conditions as: tBu-TMG base, 43 \u00b0C, and 21 min residence time. Optimal productivity (91% yield) was found with the same base at 50 \u00b0C and a 12 min residence time.",
+        "notes": "The study successfully used a self-optimizing segmented flow ('microslug') reactor to rapidly find optimal conditions for a challenging photoredox reaction. These microscale conditions were directly transferable to a larger continuous flow reactor (Vapourtec UV-150), enabling predictable scale-up with high productivity (up to 710 mg/hour). The method significantly improved yields for substrates that performed poorly in batch reactions (e.g., from 14% to 78% for 4'-chloroacetophenone)."
+    }
+}

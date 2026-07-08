@@ -1,0 +1,26 @@
+{
+    "paper_title": "C-H Arylation in the Formation of a Complex Pyrrolopyridine, the Commercial Synthesis of the Potent JAK2 Inhibitor, BMS-911543",
+    "reaction_category": "Direct Arylation",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Pd(XantPhos)Cl2",
+        "ligand": "Xantphos",
+        "base": "DIPEA / KOPiv",
+        "additive": "TBAB (tetrabutylammonium bromide)",
+        "electrophile": "Ethyl 4-bromo-1-ethyl-5-nitro-1H-pyrrole-2-carboxylate (8)",
+        "nucleophile": "4-Cyano-1-methyl-1H-imidazole (9)",
+        "solvent": "Toluene"
+    },
+    "mechanistic_insights": [
+        "The reaction proceeds via a concerted metalation-deprotonation (CMD) mechanism, where sterically hindered carboxylic acid additives like pivalic acid (PivOH) are crucial for improving both reaction rate and regioselectivity.",
+        "A mixed-base system consisting of an amine (DIPEA) and a carboxylate salt (KOPiv) was superior to a single inorganic base, leading to homogeneous reaction conditions and reduced hydrolysis of the ester substrate.",
+        "The bidentate ligand Xantphos provided significantly higher reaction rates and improved purity compared to monodentate phosphine ligands, attributed to increased catalyst stability via an in situ generated hemilabile Pd-XantPhos mono-oxide active species.",
+        "Regioselectivity of the C-H arylation on the imidazole nucleophile was a key challenge, with the optimized conditions achieving a >50:1 ratio of the desired C5-arylated product over the C2 isomer.",
+        "In the telescoped process, tetrabutylammonium bromide (TBAB) was found to increase the reaction rate."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "A telescoped ethylation/arylation procedure was developed. The C-H arylation step involved reacting the ethylated pyrrole with 3 equiv. of imidazole 9, using 5 mol % Pd(Xantphos)Cl2, 1.5 equiv. KOPiv, 3.0 equiv. DIPEA, and 1.0 equiv. TBAB in toluene at 95 \u00b0C, affording the coupled product 7 in 66% overall yield for the two steps.",
+        "notes": "Initial screening showed significant formation of impurities, including the hydrolyzed ester (12), a bis-coupled adduct (13), and the C2-arylation regioisomer (14). The optimized conditions successfully minimized these byproducts, achieving >50:1 regioselectivity. The paper also details extensive optimization of subsequent nitro reduction/cyclization and Buchwald-Hartwig amination steps for the total synthesis."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "paper_title": "Mitsunobu and Related Reactions: Advances and Applications",
+    "reaction_category": "Other/None",
+    "relevance": "Low",
+    "key_components": {
+        "catalyst": "Triphenylphosphine (Ph3P) or other trialkyl/triarylphosphines",
+        "ligand": null,
+        "base": "Triethylamine (used as an additive, particularly in macrolactonizations)",
+        "additive": "Zinc halides, lithium halides, or CO2 depending on the desired transformation (e.g., halogenation or carbamate formation)",
+        "electrophile": "Primary or secondary alcohols",
+        "nucleophile": "Acidic compounds (pKa \u2264 15) such as carboxylic acids, phenols, imides, or hydrazoic acid",
+        "solvent": "Tetrahydrofuran (THF) or Toluene"
+    },
+    "mechanistic_insights": [
+        "The reaction on chiral secondary alcohols typically proceeds with complete inversion of stereochemical configuration, unless the substrate is sterically very congested.",
+        "The nucleophile's acidity is critical; compounds with pKa > 11 often require more reactive phosphines (e.g., tributylphosphine) and azodicarboxylates (e.g., ADDP, TMAD, DHTD).",
+        "Retention of configuration can be observed, particularly in the macrolactonization of hindered alcohols or with certain allylic alcohols, which is proposed to proceed via an acyloxyphosphonium intermediate.",
+        "A major limitation is the formation of stoichiometric byproducts (phosphine oxide and hydrazine), which has led to numerous strategies for simplified purification, including polymer-supported reagents, fluorous tags, and phosphines whose oxides have different solubility profiles.",
+        "The choice of phosphine and azodicarboxylate significantly impacts reactivity and byproduct removal. For example, diphenyl(2-pyridyl)phosphine allows for acidic workup to remove the phosphine oxide byproduct."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For a standard esterification with inversion, typical conditions involve an acidic nucleophile (e.g., 4-nitrobenzoic acid), triphenylphosphine (Ph3P), and diethyl azodicarboxylate (DEAD) or diisopropyl azodicarboxylate (DIAD) in a solvent like THF or toluene at 0-25 \u00b0C.",
+        "notes": "This is a comprehensive review paper covering the Mitsunobu reaction, with a focus on literature from the last ten years prior to 2008. A central theme is the challenge of separating stoichiometric byproducts and the various modifications developed to address this issue, such as alternative reagents and purification protocols."
+    }
+}

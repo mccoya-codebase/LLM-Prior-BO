@@ -1,0 +1,26 @@
+{
+    "paper_title": "Miniaturization of popular reactions from the medicinal chemists' toolbox for ultrahigh-throughput experimentation",
+    "reaction_category": "Suzuki-Miyaura coupling",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "XPhos G3",
+        "ligand": "XPhos",
+        "base": "K3PO4",
+        "additive": "water",
+        "electrophile": "Aryl/heteroaryl halides (bromides, chlorides, iodides)",
+        "nucleophile": "Aryl/heteroaryl boronic acids and pinacol esters",
+        "solvent": "DMSO"
+    },
+    "mechanistic_insights": [
+        "For Suzuki couplings, aqueous K3PO4 was the preferred base over organic superbases like BTTP, BTMG, and P2-Et.",
+        "The use of a hydroxyl-containing cosolvent (water or tert-amyl alcohol) with DMSO is critical for high conversion in Suzuki couplings, as anhydrous DMSO is considerably less productive.",
+        "Among the phosphine ligands tested (as precatalysts), APhos, tBu3P, RuPhos, and XPhos all provided acceptable catalysis, while tBuXPhos performed poorly.",
+        "For successful reaction miniaturization in ultraHTE formats, conditions should be evolved to be homogeneous, use high-boiling solvents, and run at room temperature.",
+        "In the reductive amination of staurosporine, aldehydes were significantly more reactive substrates than ketones across a wide range of conditions."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For the Suzuki coupling of complex halides with 3-boronopyridine, the best conditions were XPhos G3 (10 mol%) with aqueous K3PO4 (1 equiv) in DMSO at room temperature for 18 hours.",
+        "notes": "The study focused on developing automation-friendly, room-temperature conditions for several common reactions, including Suzuki coupling. The optimized Suzuki protocol was successfully applied to a range of complex heterocyclic halides, with isolated yields ranging from 25% to 99% for successful examples. Some substrate failures were attributed to decomposition."
+    }
+}

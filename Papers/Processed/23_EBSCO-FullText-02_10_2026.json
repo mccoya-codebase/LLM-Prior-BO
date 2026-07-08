@@ -1,0 +1,26 @@
+{
+    "paper_title": "Parallel Bayesian Global Optimization of Expensive Functions",
+    "reaction_category": "Other/None",
+    "relevance": "Low",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "The paper develops a parallel Bayesian optimization algorithm (MOE-qEI) for expensive-to-evaluate, derivative-free functions.",
+        "The core of the algorithm is the efficient maximization of the 'multipoints expected improvement' (q-EI) criterion.",
+        "A stochastic gradient estimator for the q-EI surface is constructed using infinitesimal perturbation analysis (IPA) and is shown to be unbiased.",
+        "The proposed MOE-qEI algorithm finds higher-quality solutions with fewer function evaluations compared to heuristic methods like Constant Liar (CL-mix).",
+        "The algorithm's computation time scales better with the number of parallel evaluations (q) than methods using closed-form q-EI formulas, particularly for q > 4."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This is a computational methods paper from the field of Operations Research, not a synthetic chemistry paper. It describes a general optimization algorithm (MOE) that could be applied to chemical reaction optimization, but it contains no actual chemical data, reactions, or specific insights into cross-coupling. Performance is evaluated on mathematical test functions (e.g., Branin, Hartmann, Ackley), not chemical yields."
+    }
+}

@@ -1,0 +1,90 @@
+{
+  "Electrophile_SMILES": {
+    "value_to_id": {
+      "BrC1=CC=C(N=CC=C2)C2=C1": 0,
+      "ClC1=CC=C(N=CC=C2)C2=C1": 1,
+      "IC1=CC=C(N=CC=C2)C2=C1": 2,
+      "O=S(OC1=CC=C(N=CC=C2)C2=C1)(C(F)(F)F)=O": 3
+    },
+    "id_to_value": {
+      "0": "BrC1=CC=C(N=CC=C2)C2=C1",
+      "1": "ClC1=CC=C(N=CC=C2)C2=C1",
+      "2": "IC1=CC=C(N=CC=C2)C2=C1",
+      "3": "O=S(OC1=CC=C(N=CC=C2)C2=C1)(C(F)(F)F)=O"
+    }
+  },
+  "Nucleophile_SMILES": {
+    "value_to_id": {
+      "CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1B(O)O": 0,
+      "CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1B4OC(C)(C)C(C)(C)O4": 1,
+      "CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1[B-](F)(F)F": 2
+    },
+    "id_to_value": {
+      "0": "CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1B(O)O",
+      "1": "CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1B4OC(C)(C)C(C)(C)O4",
+      "2": "CC1=CC=C(N(C2CCCCO2)N=C3)C3=C1[B-](F)(F)F"
+    }
+  },
+  "Ligand_SMILES": {
+    "value_to_id": {
+      "CC(C)(C)P(C(C)(C)C)C1=CC=C(N(C)C)C=C1": 0,
+      "CC(C)(P(C(C)(C)C)[c-]1cccc1)C.CC(C)(P(C(C)(C)C)[c-]2cccc2)C.[Fe+2]": 1,
+      "CC(C1=C(C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C(C)C)=CC(C(C)C)=C1)C": 2,
+      "CC(P(C(C)(C)C)C(C)(C)C)(C)C": 3,
+      "CC1(C)C2=C(OC3=C1C=CC=C3P(C4=CC=CC=C4)C5=CC=CC=C5)C(P(C6=CC=CC=C6)C7=CC=CC=C7)=CC=C2": 4,
+      "CC1=CC=CC=C1P(C2=CC=CC=C2C)C3=CC=CC=C3C": 5,
+      "CCCCP(C12C[C@@H]3C[C@@H](C[C@H](C2)C3)C1)C45C[C@H]6C[C@@H](C5)C[C@@H](C4)C6": 6,
+      "COC1=CC=CC(OC)=C1C2=C(P(C3CCCCC3)C4CCCCC4)C=CC=C2": 7,
+      "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3": 8,
+      "P(C1CCCCC1)(C2CCCCC2)C3CCCCC3": 9,
+      "[c-]1(P(C2=CC=CC=C2)C3=CC=CC=C3)cccc1.[c-]4(P(C5=CC=CC=C5)C6=CC=CC=C6)cccc4.[Fe+2]": 10
+    },
+    "id_to_value": {
+      "0": "CC(C)(C)P(C(C)(C)C)C1=CC=C(N(C)C)C=C1",
+      "1": "CC(C)(P(C(C)(C)C)[c-]1cccc1)C.CC(C)(P(C(C)(C)C)[c-]2cccc2)C.[Fe+2]",
+      "2": "CC(C1=C(C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C(C)C)=CC(C(C)C)=C1)C",
+      "3": "CC(P(C(C)(C)C)C(C)(C)C)(C)C",
+      "4": "CC1(C)C2=C(OC3=C1C=CC=C3P(C4=CC=CC=C4)C5=CC=CC=C5)C(P(C6=CC=CC=C6)C7=CC=CC=C7)=CC=C2",
+      "5": "CC1=CC=CC=C1P(C2=CC=CC=C2C)C3=CC=CC=C3C",
+      "6": "CCCCP(C12C[C@@H]3C[C@@H](C[C@H](C2)C3)C1)C45C[C@H]6C[C@@H](C5)C[C@@H](C4)C6",
+      "7": "COC1=CC=CC(OC)=C1C2=C(P(C3CCCCC3)C4CCCCC4)C=CC=C2",
+      "8": "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+      "9": "P(C1CCCCC1)(C2CCCCC2)C3CCCCC3",
+      "10": "[c-]1(P(C2=CC=CC=C2)C3=CC=CC=C3)cccc1.[c-]4(P(C5=CC=CC=C5)C6=CC=CC=C6)cccc4.[Fe+2]"
+    }
+  },
+  "Base_SMILES": {
+    "value_to_id": {
+      "CC([O-])C.[Li+]": 0,
+      "CCN(CC)CC": 1,
+      "O=P([O-])([O-])[O-].[K+].[K+].[K+]": 2,
+      "OC([O-])=O.[Na+]": 3,
+      "[Cs+].[F-]": 4,
+      "[K+].[OH-]": 5,
+      "[Na+].[OH-]": 6
+    },
+    "id_to_value": {
+      "0": "CC([O-])C.[Li+]",
+      "1": "CCN(CC)CC",
+      "2": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+      "3": "OC([O-])=O.[Na+]",
+      "4": "[Cs+].[F-]",
+      "5": "[K+].[OH-]",
+      "6": "[Na+].[OH-]"
+    }
+  },
+  "Solvent_SMILES": {
+    "value_to_id": {
+      "C1COCC1": 0,
+      "CO": 1,
+      "N#CC": 2,
+      "O=CN(C)C": 3
+    },
+    "id_to_value": {
+      "0": "C1COCC1",
+      "1": "CO",
+      "2": "N#CC",
+      "3": "O=CN(C)C"
+    }
+  }
+}

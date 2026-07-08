@@ -1,0 +1,26 @@
+{
+    "paper_title": "Pharmaceutical diversification via palladium oxidative addition complexes",
+    "reaction_category": "Buchwald-Hartwig amination",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "[('BuXPhos)Pd]2(COD) or 'BuXPhos Pd G3 (used to form the oxidative addition complex)",
+        "ligand": "'BuXPhos",
+        "base": "P2-Et (phosphazene base)",
+        "additive": "4-bromoanisole (sacrificial aryl halide to quench L-Pd(0))",
+        "electrophile": "Complex aryl halides (e.g., gefitinib, rivaroxaban, brominated k252a)",
+        "nucleophile": "Amines (e.g., morpholine), boronic acids/esters, zinc reagents, thiols, alcohols",
+        "solvent": "THF (Tetrahydrofuran)"
+    },
+    "mechanistic_insights": [
+        "Using stoichiometric, pre-formed palladium oxidative addition complexes (OACs) as substrates bypasses the catalyst activation and oxidative addition steps, which are often problematic with complex molecules.",
+        "OACs derived from complex drug molecules are remarkably stable, isolable solids that can be stored on the benchtop for months under air without degradation.",
+        "The OAC-mediated approach provides significantly higher yields and success rates for complex, functional-group-rich substrates compared to the analogous catalytic cross-coupling reactions.",
+        "For simple, non-complex substrates (low CQSAR score), the OAC method offers no significant advantage over standard catalytic protocols.",
+        "Decomposition of the L-Pd(0) species formed after reductive elimination can be a minor side reaction, but it can be mitigated by adding a sacrificial aryl halide like 4-bromoanisole."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "Coupling of the isolated rivaroxaban-OAC (3) with morpholine using P2-Et base in THF at room temperature for 2 hours gave the product in 80% yield, whereas the analogous catalytic reaction (5 mol% 'BuXPhos Pd G3) yielded only 2%.",
+        "notes": "The paper demonstrates the utility of the OAC approach in automated, nanoscale synthesis. A screen of the rivaroxaban-OAC against 384 diverse nucleophiles yielded 206 successful reactions (>10% conversion), while the corresponding catalytic screen with the parent aryl halide yielded only 39 successful reactions. This highlights the method's robustness for late-stage functionalization."
+    }
+}

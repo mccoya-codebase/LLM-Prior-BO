@@ -1,0 +1,26 @@
+{
+    "paper_title": "A Multiligand Based Pd Catalyst for C-N Cross-Coupling Reactions",
+    "reaction_category": "Buchwald-Hartwig amination",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Palladium precatalysts derived from Pd sources and biarylphosphine ligands, specifically precatalysts 3 ((BrettPhos)Pd(allyl)Cl) and 4 ((RuPhos)Pd(allyl)Cl).",
+        "ligand": "A mixture of BrettPhos (1) and RuPhos (2).",
+        "base": "NaOt-Bu, Cs2CO3, K3PO4",
+        "additive": null,
+        "electrophile": "Aryl chlorides, bromides, and iodides.",
+        "nucleophile": "Primary and secondary aliphatic amines (e.g., octylamine, morpholine, methylamine), anilines, and primary amides.",
+        "solvent": "1,4-dioxane, t-BuOH, toluene"
+    },
+    "mechanistic_insights": [
+        "A mixed-ligand system using BrettPhos (effective for primary amines) and RuPhos (effective for secondary amines) combines the reactivity of both individual systems, creating a catalyst with exceptionally broad substrate scope.",
+        "The presence of one ligand does not inhibit the catalytic cycle of the other; BrettPhos does not inhibit the arylation of secondary amines by the RuPhos-based catalyst, and vice-versa for primary amines.",
+        "Ligand exchange is facile and occurs at both the Pd(0) and the Pd(II) oxidative addition complex stages of the catalytic cycle.",
+        "Ligand exchange does not occur at the amine-bound Pd(II) complex stage, prior to reductive elimination.",
+        "The system has limitations and is not effective for coupling substrates that require highly specialized ligands, such as imidazoles, benzimidazoles, pyrazoles, secondary acyclic amides, or for the monoarylation of ammonia."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For a broad range of substrates, a 1:1 mixture of BrettPhos and RuPhos with a Pd source (0.005-1 mol%), NaOt-Bu in 1,4-dioxane at 100-110 \u00b0C, or Cs2CO3 in t-BuOH at 110 \u00b0C for base-sensitive substrates.",
+        "notes": "The mixed-ligand system provides high yields (often >90%) for the arylation of both primary and secondary amines using low catalyst loadings (down to 0.005 mol% Pd). It uniquely enables efficient one-pot, multi-step syntheses, such as that of the triarylamine TPD, which are inefficient with either single-ligand system."
+    }
+}

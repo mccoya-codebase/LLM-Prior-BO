@@ -1,0 +1,26 @@
+{
+    "paper_title": "Generalized Subset Designs in Analytical Chemistry",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "The paper describes a statistical methodology (Design of Experiments - DOE), not a chemical reaction.",
+        "A novel 'generalized subset design' is presented to create reduced experimental plans for systems with both qualitative and quantitative factors at multiple levels.",
+        "The method generates representative, balanced, and complementary subdesigns, analogous to a 'fold-over' in traditional fractional factorial designs.",
+        "The algorithm uses combinatorial structures like orthogonal arrays and Latin squares to create optimal subsets from a large number of possible experimental combinations.",
+        "The methodology is applied to problems in analytical chemistry, such as multivariate calibration, drug stability studies, and representative sample selection, not synthetic chemistry."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This paper does not describe a chemical reaction or optimization. It is a methodology paper on the statistical Design of Experiments (DOE) and its application in analytical chemistry. No synthetic reactions, catalysts, or yields are reported."
+    }
+}

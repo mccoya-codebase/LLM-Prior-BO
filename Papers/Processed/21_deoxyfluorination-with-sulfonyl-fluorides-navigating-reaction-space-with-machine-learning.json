@@ -1,0 +1,26 @@
+{
+    "paper_title": "Deoxyfluorination with Sulfonyl Fluorides: Navigating Reaction Space with Machine Learning",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": "DBU, MTBD, BTMG, BTPP",
+        "additive": null,
+        "electrophile": "Various primary, secondary, tertiary, cyclic, benzylic, and allylic alcohols",
+        "nucleophile": "PyFluor, PBSF, 3-Cl-arylsulfonyl fluoride, 3-CF3-arylsulfonyl fluoride, 3-NO2-arylsulfonyl fluoride",
+        "solvent": "THF"
+    },
+    "mechanistic_insights": [
+        "The reaction proceeds via different mechanisms depending on the substrate: SN2 for primary and secondary alcohols, SN1 for tertiary alcohols, and anchimeric assistance for certain substrates like \u03b1-amino alcohols.",
+        "A strong correlation exists between reagent reactivity and substrate class: activated substrates (e.g., benzylic) perform best with less reactive arylsulfonyl fluorides, while deactivated substrates (e.g., cyclic, tertiary) require the highly reactive PBSF.",
+        "Base sterics are critical: Unencumbered primary alcohols require bulky bases like BTMG or BTPP to maximize yield, whereas more congested secondary alcohols are often higher-yielding with more compact bases like MTBD.",
+        "For cyclic alcohols, ring strain is a key factor. 4- and 5-membered rings are readily fluorinated, while less strained cyclohexanols perform poorly, as the lack of ground-state strain raises the activation energy for substitution.",
+        "Bulky, non-nucleophilic bases like BTPP are optimal for obtaining high yields of benzylic fluorides, minimizing side reactions."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "Optimal conditions are highly substrate-dependent. Examples: Unactivated primary alcohol (2g) gave 96% yield with 3-CF3 sulfonyl fluoride and BTMG. Benzylic alcohol (2b) gave 90% yield with 3-CF3 sulfonyl fluoride and BTPP. Cyclic alcohol (2n) gave 94% yield with PBSF and BTPP.",
+        "notes": "The paper demonstrates that a random forest machine learning model can accurately predict reaction outcomes for new substrates (RMSE = 7.4% on a test set). This approach enables the in silico identification of high-yielding conditions from a complex, multidimensional reaction space, circumventing the need for exhaustive experimental screening. The model's success highlights the power of ML in navigating reactions where no single set of 'optimal' conditions exists across a broad substrate scope."
+    }
+}

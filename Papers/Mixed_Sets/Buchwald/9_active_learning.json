@@ -1,0 +1,26 @@
+{
+    "paper_title": "Predicting reaction conditions from limited data through active transfer learning",
+    "reaction_category": "Buchwald-Hartwig amination",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "XPhos-Pd G3 (and other Buchwald 2nd/3rd gen precatalysts)",
+        "ligand": "XPhos (and other phosphine ligands)",
+        "base": "K3PO4, P2Et, K2CO3, Cs2CO3",
+        "additive": null,
+        "electrophile": "3-bromopyridine, 2-bromothiazole",
+        "nucleophile": "amides (benzamide), sulfonamides, anilines, pyrazole, pinacol boronate esters, phenols, thiophenols, malonates",
+        "solvent": "Dioxane, DMSO, THF, DMF"
+    },
+    "mechanistic_insights": [
+        "Model transferability is high between mechanistically similar reactions (e.g., amide to sulfonamide C-N coupling) but very low between dissimilar reaction types (e.g., C-N coupling to Suzuki C-C coupling).",
+        "Simpler machine learning models (e.g., random forests with fewer trees and limited depth) can generalize better to new, unseen reaction conditions than more complex models that are highly tuned to the source data.",
+        "For challenging targets where direct model transfer is ineffective, an active transfer learning (ATL) strategy that adds new, simple decision trees trained only on new target data to a fixed source model ('target tree growth') is highly effective.",
+        "Physical descriptors representing mechanistic properties (e.g., buried volume, proton affinity) lead to better transfer learning performance than models based on Morgan fingerprints.",
+        "Active learning reveals shifts in feature importance; while catalyst descriptors dominate the initial C-N coupling model, base and solvent descriptors become critical for predicting outcomes for a new, challenging nucleophile like pyrazole."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "The study focuses on binary classification of reaction success (yield > 0% vs. 0%) rather than numerical yield prediction. The primary outcome is the performance of different machine learning strategies (measured by ROC-AUC and number of successful reactions found) for identifying productive conditions for new nucleophiles. The most successful strategy was an active transfer learning approach using simple models."
+    }
+}

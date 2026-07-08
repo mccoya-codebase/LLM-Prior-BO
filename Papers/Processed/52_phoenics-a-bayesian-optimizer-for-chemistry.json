@@ -1,0 +1,26 @@
+{
+    "paper_title": "Phoenics: A Bayesian Optimizer for Chemistry",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "The paper introduces a computational optimization algorithm, Phoenics, not new chemical mechanistic insights.",
+        "The algorithm is applied to the Oregonator model, a mathematical model of the Belousov-Zhabotinsky oscillating reaction, not a cross-coupling reaction.",
+        "Optimization parameters are abstract constants in a set of differential equations (e.g., s, w, q, f), not chemical components like catalyst or base.",
+        "The algorithm uses a sampling parameter (\u03bb) to tune between exploration (searching new parameter space) and exploitation (refining known good conditions).",
+        "Batched optimization, where multiple conditions with different sampling strategies are proposed in parallel, improves performance and reduces the total number of evaluations required."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": "The paper does not optimize a synthetic reaction for yield. It finds a set of seven dimensionless parameters for the Oregonator model that reproduce a target oscillating chemical behavior, achieving a minimum loss of 36.3 within 150 evaluations.",
+        "notes": "This is a computational methods paper demonstrating a new Bayesian optimization algorithm. It does not report any experimental synthetic chemistry or provide data on cross-coupling reactions. The 'reaction' studied is a mathematical model of a complex oscillating system, used as a benchmark for the algorithm's performance."
+    }
+}

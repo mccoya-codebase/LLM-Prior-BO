@@ -1,0 +1,26 @@
+{
+    "paper_title": "Nanomole-scale high-throughput chemistry for the synthesis of complex molecules",
+    "reaction_category": "Buchwald-Hartwig amination",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Palladium precatalysts with biarylphosphine ligands (e.g., BrettPhos Pd G3, RuPhos Pd G2, XPhos Pd G2, AdBrettPhos Pd G3)",
+        "ligand": "Hindered, electron-rich biarylphosphines (e.g., BrettPhos, RuPhos, XPhos, AdBrettPhos)",
+        "base": "Organic superbases (DBU, MTBD, BEMP, BTPP, P2Et)",
+        "additive": null,
+        "electrophile": "Aryl halides (bromides, chlorides) on simple (e.g., 3-bromopyridine) and complex, functionalized heterocyclic cores",
+        "nucleophile": "Diverse N, O, C, P, S nucleophiles including amines, alcohols, amides, sulfonamides, carbamates, aryl boronates, alkynes, and malonates",
+        "solvent": "Dimethyl sulfoxide (DMSO) or N-methyl-2-pyrrolidone (NMP)"
+    },
+    "mechanistic_insights": [
+        "Room-temperature cross-coupling in polar aprotic solvents (DMSO, NMP) is enabled by combining highly hindered, electron-rich biarylphosphine ligands with non-nucleophilic organic superbases.",
+        "The combination of specific ligands and superbases effectively protects the palladium catalyst from deactivating coordination by polar solvents like DMSO.",
+        "Homogeneous reaction conditions in high-boiling solvents allow for extreme miniaturization (nanomole scale) using nanoliter robotics without the need for stirring.",
+        "For complex, functionalized substrates, a single set of reaction conditions is often insufficient; high-throughput screening of a catalyst-base matrix is essential to find productive conditions for failed reactions.",
+        "Nanomole-scale Design of Experiments (DOE) can effectively optimize continuous variables like reagent stoichiometry and catalyst loading, providing predictive models for gram-scale synthesis."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For the coupling of chloride 6 with amine 10, optimized conditions on a 1-g scale were: 5 mol% AdBrettPhos Pd G3 (42), 2.2 eq. P2Et (29), 1.2 eq. amine 10 in DMSO (0.24 M) at room temperature, yielding 76% of product 46.",
+        "notes": "The paper develops a nanomole-scale (50 nmol, ~0.02 mg/reaction) high-throughput screening platform that allows for >1500 experiments per day. Conditions identified at the nanomole scale were successfully scaled up by a factor of >1000 to preparative (25 mg to 1 g) scales, demonstrating the method's utility for rapid reaction optimization in material-limited drug discovery settings. Rapid analysis was achieved using MISER LC-MS."
+    }
+}

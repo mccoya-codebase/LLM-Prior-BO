@@ -1,0 +1,26 @@
+{
+    "paper_title": "The Knowledge-Gradient Algorithm for Sequencing Experiments in Drug Discovery",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "The paper describes a computational algorithm, the Knowledge-Gradient (KG) algorithm, for optimizing the sequence of experiments in drug discovery.",
+        "It uses a Bayesian approach, specifically the Knowledge-Gradient with Correlated Beliefs (KGCB), to model how structural relationships between molecules cause their values (e.g., biological activity) to be correlated.",
+        "The method relies on a Quantitative Structure-Activity Relationship (QSAR) model, specifically the Free-Wilson model, which assumes that substituents contribute additively to the overall value of a compound.",
+        "The primary insight is computational, not chemical: by maintaining beliefs on the parameters of the linear model (substituent contributions) instead of on the exponentially larger set of all possible molecules, the algorithm's computational cost is drastically reduced.",
+        "The algorithm is demonstrated via simulation on a published dataset of narcotic analgesics, not through new chemical experimentation."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This paper is purely computational and does not report any experimental work or chemical reaction optimization. It develops and validates an algorithm for sequential experimental design. The reported outcomes are simulated 'opportunity costs' for finding an optimal molecule within a dataset, not chemical yields."
+    }
+}

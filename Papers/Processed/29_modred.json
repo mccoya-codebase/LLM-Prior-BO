@@ -1,0 +1,25 @@
+{
+    "paper_title": "Mordred: a molecular descriptor calculator",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "This paper describes a computational software, Mordred, for calculating molecular descriptors used in cheminformatics and quantitative structure-property relationship (QSPR) studies.",
+        "The paper does not involve any experimental synthetic chemistry or cross-coupling reactions.",
+        "The focus is on the development, implementation, and performance benchmarking of a computational tool.",
+        "No mechanistic insights into chemical reactions are provided."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "The paper does not report chemical reaction yields. It provides quantitative benchmarks on the computational performance (e.g., calculation speed, throughput) of the Mordred software compared to other descriptor calculators like PaDEL-Descriptor."
+    }
+}

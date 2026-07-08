@@ -1,0 +1,26 @@
+{
+    "paper_title": "COMBO: An efficient Bayesian optimization library for materials science",
+    "reaction_category": "Other/None",
+    "relevance": "Low",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "The paper describes a computational method, Bayesian optimization, not a chemical reaction mechanism.",
+        "The COMBO library uses Thompson sampling, which chooses the next candidate point based on its probability of being optimal, making it computationally efficient.",
+        "Random feature maps are used to approximate a Gaussian process with a Bayesian linear model, which is more efficient for learning, especially with large datasets.",
+        "The computational time of the COMBO library grows linearly with the number of experiments, in contrast to standard libraries (e.g., scikit-learn) which show quadratic growth.",
+        "The method requires that each candidate point (e.g., a set of reaction conditions) be represented as a numerical vector of identical dimensionality (descriptors)."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": "No chemical reaction was optimized. The paper benchmarks a computational algorithm on a materials science problem (optimizing grain boundary energy).",
+        "notes": "This paper does not describe a chemical reaction optimization. It introduces a Python library (COMBO) for Bayesian optimization and demonstrates its efficiency on a materials science problem. The methods are general and could potentially be applied to reaction optimization, but no such application is presented here."
+    }
+}

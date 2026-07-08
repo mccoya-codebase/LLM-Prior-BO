@@ -1,0 +1,60 @@
+{
+  "Base_SMILES": {
+    "value_to_id": {
+      "O=C([O-])C(C)(C)C.[Cs+]": 0,
+      "O=C([O-])C(C)(C)C.[K+]": 1,
+      "O=C([O-])C.[Cs+]": 2,
+      "O=C([O-])C.[K+]": 3
+    },
+    "id_to_value": {
+      "0": "O=C([O-])C(C)(C)C.[Cs+]",
+      "1": "O=C([O-])C(C)(C)C.[K+]",
+      "2": "O=C([O-])C.[Cs+]",
+      "3": "O=C([O-])C.[K+]"
+    }
+  },
+  "Ligand_SMILES": {
+    "value_to_id": {
+      "CC(C)(C)P(C1=CC=CC=C1)C(C)(C)C": 0,
+      "CC(C)C1=CC(C(C)C)=C(C(C(C)C)=C1)C2=C(P(C3CCCCC3)C4CCCCC4)C(OC)=CC=C2OC": 1,
+      "CC(C1=C(C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C(C)C)=CC(C(C)C)=C1)C": 2,
+      "CC(OC1=C(P(C2CCCCC2)C3CCCCC3)C(OC(C)C)=CC=C1)C": 3,
+      "CN(C)C1=CC=CC(N(C)C)=C1C2=CC=CC=C2P(C(C)(C)C)C3=CC=CC=C3": 4,
+      "CP(C)C1=CC=CC=C1": 5,
+      "CP(C1=CC=CC=C1)C2=CC=CC=C2": 6,
+      "C[C@]1(O2)O[C@](C[C@]2(C)P3C4=CC=CC=C4)(C)O[C@]3(C)C1": 7,
+      "FC(F)(F)C1=CC(P(C2=C(C3=C(C(C)C)C=C(C(C)C)C=C3C(C)C)C(OC)=CC=C2OC)C4=CC(C(F)(F)F)=CC(C(F)(F)F)=C4)=CC(C(F)(F)F)=C1": 8,
+      "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3": 9,
+      "P(C1=CC=CO1)(C2=CC=CO2)C3=CC=CO3": 10,
+      "P(C1CCCCC1)(C2CCCCC2)C3CCCCC3": 11
+    },
+    "id_to_value": {
+      "0": "CC(C)(C)P(C1=CC=CC=C1)C(C)(C)C",
+      "1": "CC(C)C1=CC(C(C)C)=C(C(C(C)C)=C1)C2=C(P(C3CCCCC3)C4CCCCC4)C(OC)=CC=C2OC",
+      "2": "CC(C1=C(C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C(C)C)=CC(C(C)C)=C1)C",
+      "3": "CC(OC1=C(P(C2CCCCC2)C3CCCCC3)C(OC(C)C)=CC=C1)C",
+      "4": "CN(C)C1=CC=CC(N(C)C)=C1C2=CC=CC=C2P(C(C)(C)C)C3=CC=CC=C3",
+      "5": "CP(C)C1=CC=CC=C1",
+      "6": "CP(C1=CC=CC=C1)C2=CC=CC=C2",
+      "7": "C[C@]1(O2)O[C@](C[C@]2(C)P3C4=CC=CC=C4)(C)O[C@]3(C)C1",
+      "8": "FC(F)(F)C1=CC(P(C2=C(C3=C(C(C)C)C=C(C(C)C)C=C3C(C)C)C(OC)=CC=C2OC)C4=CC(C(F)(F)F)=CC(C(F)(F)F)=C4)=CC(C(F)(F)F)=C1",
+      "9": "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+      "10": "P(C1=CC=CO1)(C2=CC=CO2)C3=CC=CO3",
+      "11": "P(C1CCCCC1)(C2CCCCC2)C3CCCCC3"
+    }
+  },
+  "Solvent_SMILES": {
+    "value_to_id": {
+      "CC(N(C)C)=O": 0,
+      "CC1=CC=C(C)C=C1": 1,
+      "CCCC#N": 2,
+      "CCCCOC(C)=O": 3
+    },
+    "id_to_value": {
+      "0": "CC(N(C)C)=O",
+      "1": "CC1=CC=C(C)C=C1",
+      "2": "CCCC#N",
+      "3": "CCCCOC(C)=O"
+    }
+  }
+}

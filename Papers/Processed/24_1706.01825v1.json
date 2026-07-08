@@ -1,0 +1,26 @@
+{
+    "paper_title": "Parallel and Distributed Thompson Sampling for Large-scale Accelerated Exploration of Chemical Space",
+    "reaction_category": "Other/None",
+    "relevance": "Low",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "The paper develops a machine learning algorithm, Parallel and Distributed Thompson Sampling (PDTS), for large-scale Bayesian optimization.",
+        "PDTS is a highly scalable method for parallel Bayesian optimization, applicable where other methods like parallel Expected Improvement (EI) are not feasible due to large batch sizes.",
+        "The method is demonstrated on virtual screening of large molecule libraries for properties like power conversion efficiency and biological activity, not on optimizing a chemical reaction.",
+        "The paper provides no mechanistic insights into chemical reactions; its focus is purely on computational search and optimization strategies.",
+        "PDTS is shown to outperform other scalable approaches like greedy search, e-greedy, and random search methods in exploring chemical space."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This is a computational methods paper describing a machine learning algorithm for exploring chemical space. It does not report any experimental chemical reactions or yields. The quantitative results pertain to the performance of the algorithm (e.g., '1% recall' in virtual screening) on computational datasets, not the optimization of a chemical synthesis."
+    }
+}

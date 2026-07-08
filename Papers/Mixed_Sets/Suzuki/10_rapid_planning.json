@@ -1,0 +1,26 @@
+{
+    "paper_title": "Rapid planning and analysis of high-throughput experiment arrays for reaction discovery",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "NiBr2 DME",
+        "ligand": "5,5'-(Me)2-2,2'-bipyridine",
+        "base": null,
+        "additive": "Phthalimide, Mn",
+        "electrophile": "Amine activated as a Katritzky salt",
+        "nucleophile": "Carboxylic acid activated as an N-acyl-glutarimide",
+        "solvent": "NMP"
+    },
+    "mechanistic_insights": [
+        "The paper introduces phactor\u2122, a software platform designed to facilitate the rapid design, execution, and analysis of high-throughput experimentation (HTE) arrays for reaction discovery.",
+        "For a deaminative decarboxylative sp\u00b2-sp\u00b3 C-C coupling, a combination of a nickel catalyst (NiBr\u2082 DME), a bipyridine ligand, and phthalimide as an additive was found to be highly effective.",
+        "In a copper-catalyzed deaminative aryl esterification, the use of AgNO3 as an additive was identified as a key factor for achieving a successful reaction.",
+        "A 'direct-to-biology' workflow is demonstrated, where nanomole-scale reaction arrays are directly assayed for biological activity (e.g., SARS-CoV-2 MPro inhibition), linking synthetic output to functional outcome.",
+        "The platform enables rapid screening of multiple reaction parameters simultaneously, such as catalysts, ligands, additives, and solvents, to quickly identify optimal conditions from a large experimental space."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For a deaminative decarboxylative sp\u00b2-sp\u00b3 C-C coupling (product 19), optimal conditions were NiBr\u2082 DME (20 mol%), 5,5'-(Me)\u2082-2,2'-bipyridine (20 mol%), phthalimide (1.5 equiv.), and Mn (3.0 equiv.) in NMP at 80 \u00b0C, which gave a 75% assay yield.",
+        "notes": "The paper's primary contribution is the development of the 'phactor' software to streamline HTE workflows. The quantitative data presented serves to demonstrate the software's utility across a diverse set of reactions (amide couplings, esterifications, C-C couplings) rather than providing an in-depth study of a single transformation. The results showcase the platform's ability to rapidly identify promising reaction conditions."
+    }
+}

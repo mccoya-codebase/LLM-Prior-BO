@@ -1,0 +1,26 @@
+{
+    "paper_title": "Machine learning meets continuous flow chemistry: Automated optimization towards the Pareto front of multiple objectives",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": "NEt3",
+        "additive": null,
+        "electrophile": "2,4-difluoronitrobenzene",
+        "nucleophile": "morpholine",
+        "solvent": "EtOH"
+    },
+    "mechanistic_insights": [
+        "The algorithm identifies a Pareto front, revealing the complete quantitative trade-off between competing objectives like space-time yield (STY) and E-factor or impurity.",
+        "For the SNAr reaction, STY can be improved with a small E-factor penalty by decreasing residence time, but further STY gains require increasing nucleophile equivalents, which dramatically worsens the E-factor.",
+        "For the N-benzylation reaction, temperature is the decisive variable controlling the trade-off between STY and impurity formation.",
+        "Gaussian Process model hyperparameters provide 'automatic relevance determination', quantifying the influence of each input variable (e.g., temperature, concentration) on each objective.",
+        "A multi-objective approach identifies a set of non-dominated optimal points, whereas single-objective optimization only finds one point and may miss superior trade-off conditions."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For the SNAr reaction, the Pareto front ranged from an optimal STY of 13,120 kg m\u207b\u00b3 h\u207b\u00b9 (E-factor=1.6) to an optimal E-factor of 0.2 (STY=3650 kg m\u207b\u00b3 h\u207b\u00b9). For N-benzylation, the front ranged from an optimal STY of 331 kg m\u207b\u00b3 h\u207b\u00b9 (10.0% impurity) to an optimal impurity of 2.2% (STY=142 kg m\u207b\u00b3 h\u207b\u00b9).",
+        "notes": "The paper demonstrates a multi-objective Bayesian optimization algorithm (TS-EMO) that is highly data-efficient, identifying the Pareto front of optimal conditions in under 80 experiments for two different reactions. This approach avoids arbitrary weighting factors required for single-objective optimization and provides a complete set of optimal trade-off solutions for process design."
+    }
+}

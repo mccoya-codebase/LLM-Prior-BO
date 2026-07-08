@@ -1,0 +1,26 @@
+{
+    "paper_title": "Design of Experiments (DoE) and Process Optimization. A Review of Recent Publications",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "Design of Experiments (DoE) is a powerful tool for process optimization, superior to the traditional 'one factor at a time' (OFAT) approach because it can uncover interactions between variables.",
+        "The DoE workflow involves defining objectives, factors/variables and their ranges, and responses, followed by selecting an experimental design, performing reactions, analyzing data, and confirming the results.",
+        "Screening designs are used to identify the most important factors, while optimization designs (e.g., Response Surface Methodology - RSM) are used to find the optimal conditions for those factors.",
+        "DoE is central to the Quality by Design (QbD) approach in pharmaceutical development, helping to define the 'design space' and 'proven acceptable ranges' (PARs) for critical process parameters.",
+        "Technological advances, such as parallel reactors and high-throughput screening, have made the implementation of DoE more practical in process chemistry."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "This is a review paper and does not present a single set of best-performing conditions. It summarizes numerous examples, such as a Heck coupling optimized to 99% yield by exploring temperature (90-120 \u00b0C), dilution (5-10 mL), and reaction time (8-24 h).",
+        "notes": "This paper is a comprehensive review of the application of Design of Experiments (DoE) in chemical process optimization, drawing examples from publications in Organic Process Research & Development from 2003-2013. It does not present new experimental data but rather illustrates the power and methodology of DoE across a wide range of reaction types, including hydrolysis, acylations, oxidations, and metal-catalyzed cross-couplings. The primary focus is on the statistical methodology for process improvement, not on a specific chemical transformation."
+    }
+}

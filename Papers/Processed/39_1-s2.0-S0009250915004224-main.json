@@ -1,0 +1,20 @@
+{
+    "paper_title": "Feasibility and flexibility analysis of black-box processes Part 1: Surrogate-based feasibility analysis",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This paper is a work in chemical engineering and process modeling. It develops a computational algorithm for 'surrogate-based feasibility analysis' of black-box processes. The primary case study is a physical process (pharmaceutical roller compaction), not a chemical synthesis. The paper has no direct relevance to cross-coupling reaction optimization."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "paper_title": "Predicting reaction performance in C-N cross-coupling using machine learning",
+    "reaction_category": "Buchwald-Hartwig amination",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Palladium complexes formed in situ from a Pd source and phosphine ligands",
+        "ligand": "Four different Buchwald biaryl phosphine ligands",
+        "base": "BTMG (t-butyltetramethylguanidine), MTBD (methyltriazabicyclodecene), P2Et",
+        "additive": "23 different isoxazole derivatives",
+        "electrophile": "15 different aryl and heteroaryl halides",
+        "nucleophile": "4-methylaniline",
+        "solvent": "DMSO"
+    },
+    "mechanistic_insights": [
+        "The inhibitory effect of isoxazole additives is strongly correlated with their electrophilicity, with key predictive features being the additive's C-3 NMR shift, LUMO energy, and electrostatic charges.",
+        "A deleterious side reaction was identified where highly electrophilic isoxazoles undergo competitive N-O bond oxidative addition to the Pd(0) catalyst, effectively poisoning it and reducing the yield of the desired amination.",
+        "Random forest machine learning models significantly outperform traditional linear regression for predicting reaction yields, indicating that the relationships between component features and outcomes are highly non-linear.",
+        "The machine learning model demonstrated strong 'out-of-sample' predictive power, successfully forecasting the performance of new isoxazole additives not included in the original training set.",
+        "The random forest model maintained high predictive accuracy even with sparse training data (e.g., 5% of the full dataset), suggesting ML can be a practical tool for reaction optimization without exhaustive high-throughput screening."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": null,
+        "notes": "The primary quantitative outcome was the performance of the predictive model. The random forest algorithm achieved a high coefficient of determination (R\u00b2) of 0.92 and a root mean square error (RMSE) of 7.8% yield on the test set. This significantly outperformed linear regression (R\u00b2 = 0.64, RMSE = 16.3%). The model also showed strong performance in predicting the effect of new, unseen additives (average R\u00b2 = 0.83)."
+    }
+}

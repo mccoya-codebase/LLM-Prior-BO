@@ -1,0 +1,26 @@
+{
+    "paper_title": "A platform for automated nanomole-scale reaction screening and micromole-scale synthesis in flow",
+    "reaction_category": "Suzuki-Miyaura coupling",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Pd(OAc)2",
+        "ligand": "P(tBu)3, PPh3, AmPhos, P(Cy)3, P(o-Tol)3, CataCXium A, SPhos, dtbpf, XPhos, dppf, Xantphos",
+        "base": "Et3N, LiOtBu, CsF, K3PO4, KOH, NaHCO3, NaOH",
+        "additive": null,
+        "electrophile": "6-substituted quinolines (R1 = Cl, Br, OTf, I)",
+        "nucleophile": "Indazole boronic acid, boronic ester (Bpin), and trifluoroborate (BF3K)",
+        "solvent": "MeOH/H2O (9:1), THF/H2O (9:1), MeCN/H2O (9:1), DMF/H2O (9:1)"
+    },
+    "mechanistic_insights": [
+        "The 6-chloroquinoline electrophile is the least reactive among the halides/triflate tested, though good reactivity can be achieved with specific ligands like XPhos and SPhos.",
+        "The reaction performs better when the indazole is the nucleophilic partner (boronic acid derivative) and the quinoline is the electrophilic partner (halide), rather than the reverse.",
+        "The trifluoroborate (BF3K) nucleophile is generally inferior to the corresponding boronic acid and boronic ester, likely due to insufficient time for hydrolysis to the active boronic acid under the 1-minute flow conditions.",
+        "For the coupling with the trifluoroborate (BF3K) nucleophile, MeOH is a key solvent for achieving reactivity.",
+        "For broad electrophile scope (Cl, Br, I, OTf quinolines), the most robust conditions utilize SPhos or XPhos as the ligand with MeCN as the solvent and either LiOtBu or NaOH as the base."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For broad applicability across all tested quinoline electrophiles, the best conditions (>85% conversion) were found to be Pd(OAc)2 with SPhos/LiOtBu in MeCN, SPhos/NaOH in MeCN, or XPhos/NaOH in MeCN.",
+        "notes": "The paper describes a high-throughput flow screening platform generating 5760 data points. The reported yields are primarily LC-MS UV area percentages from nanomole-scale reactions. Selected optimal conditions were successfully translated to micromole-scale flow synthesis (59% isolated yield) and traditional batch synthesis (79% isolated yield), validating the screening results."
+    }
+}

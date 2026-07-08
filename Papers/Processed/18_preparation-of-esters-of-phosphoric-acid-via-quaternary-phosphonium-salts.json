@@ -1,0 +1,26 @@
+{
+    "paper_title": "Preparation of Esters of Phosphoric Acid via Quaternary Phosphonium Salts",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": "monobromocyanoacetamide",
+        "electrophile": "Alcohols (e.g., benzyl alcohol, ethanol, phenol)",
+        "nucleophile": "Dialkyl phosphites (e.g., di-n-butyl phosphite, dibenzyl phosphite)",
+        "solvent": "Tetrahydrofuran (THF)"
+    },
+    "mechanistic_insights": [
+        "The reaction proceeds through a quaternary phosphonium salt intermediate, formed from the reaction of a dialkyl phosphite, monobromocyanoacetamide, and an alcohol.",
+        "The reactive species is the trivalent tautomer of the dialkyl phosphite, (RO)2P-OH, which reacts with monobromocyanoacetamide.",
+        "The final phosphate product is formed by the subsequent attack of the bromide ion on an alkyl group of the phosphonium intermediate, leading to its elimination as an alkyl bromide.",
+        "The selectivity of the reaction depends on the lability of the alkyl groups on the phosphorus; benzyl groups are eliminated preferentially over less labile groups like ethyl or n-butyl.",
+        "When using a dialkyl phosphite with a less labile alkyl group (e.g., diethyl phosphite) and its corresponding alcohol (ethanol), competitive elimination of ethyl bromide and hydrogen bromide occurs, leading to a mixture of triethyl phosphate and diethyl hydrogen phosphate."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For the phosphorylation of various alcohols and phenol, the use of dibenzyl phosphite and monobromocyanoacetamide in THF, followed by catalytic hydrogenation, afforded the corresponding alkyl (or phenyl) dihydrogen phosphates (isolated as anilinium salts) in 72-85% yields.",
+        "notes": "The paper presents a method for the oxidation of dialkyl phosphites to dialkyl hydrogen phosphates and for the phosphorylation of alcohols to alkyl dihydrogen phosphates. The key reagent system is monobromocyanoacetamide and an alcohol (e.g., benzyl alcohol). The use of dibenzyl phosphite is particularly effective for phosphorylating other alcohols, as the benzyl groups can be selectively cleaved from the intermediate and then removed entirely by hydrogenation."
+    }
+}

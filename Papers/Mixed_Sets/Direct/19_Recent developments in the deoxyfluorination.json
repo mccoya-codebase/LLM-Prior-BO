@@ -1,0 +1,26 @@
+{
+    "paper_title": "Recent Developments in the Deoxyfluorination of Alcohols and Phenols: New Reagents, Mechanistic Insights, and Applications",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Co(salen) complex, Ir(ppy)2(dtbbpy)PF6",
+        "ligand": "salen, (ppy)2(dtbbpy)",
+        "base": "CsF, DBU, MTBD, DIPEA, pyridine, Ag2CO3",
+        "additive": "TMAF (tetramethylammonium fluoride), KBF4, HFIP (1,1,1,3,3,3-hexafluoroisopropanol)",
+        "electrophile": "Alcohols (primary, secondary, tertiary), Phenols",
+        "nucleophile": "PhenoFluor, PyFluor, CpFluor, AlkylFluor, SO2F2, SF6, TFFH, Et3N\u00b73HF",
+        "solvent": "Toluene, acetonitrile, 1,2-dichloroethane, CH2Cl2, butanone"
+    },
+    "mechanistic_insights": [
+        "Deoxyfluorination of phenols with PhenoFluor proceeds via a concerted nucleophilic aromatic substitution (CSNAr) mechanism, not a conventional SNAr or aryne pathway. C-O bond cleavage is involved in the rate-determining step.",
+        "The mechanism of CpFluor is sensitive to the electronic nature of the substrate and reagent. Electron-rich substrates/reagents favor direct displacement (Path A), while electron-deficient ones proceed through a cyclopropenone acetal intermediate (Path B), making CpFluor 42a superior for diol fluorination.",
+        "Deoxyfluorination of phenols with SO2F2/TMAF involves the formation of an arylfluorosulfonate intermediate, which then undergoes a concerted reaction with fluoride, similar to the CSNAr mechanism of PhenoFluor.",
+        "The Co(salen)-catalyzed ring opening of epoxides with fluoride proceeds via a cooperative mechanism involving a dimeric Co-F resting state. The active nucleophile is a cobalt fluoride species.",
+        "Deoxyfluorination of allylic alcohols with SF6 under photoredox catalysis invariably gives mixtures of linear and branched products, suggesting the involvement of radical or carbocationic intermediates."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "This is a review paper, so 'best' conditions are context-dependent. Noteworthy examples include: AlkylFluor (32) gave a 79% yield for the challenging deoxyfluorination of testosterone, outperforming DAST, XtalFluor-M, PyFluor, and PhenoFluor mix. PhenoFluor (13) provided high yields (up to 95%) for a broad scope of phenols. CpFluor 42a was highly effective for monofluorination of diols (up to 99% yield).",
+        "notes": "This review covers the development of new deoxyfluorination reagents from 2011-2017. It highlights a trend towards safer, more stable, and operationally simple solid reagents (e.g., PhenoFluor, PyFluor, CpFluor, AlkylFluor) over traditional reagents like DAST. The paper details reagents with distinct and complementary reactivity profiles for phenols, simple alcohols, complex alcohols, and diols. It also covers novel catalytic approaches, including photoredox catalysis with SF6 and Co(salen)-catalyzed epoxide opening."
+    }
+}

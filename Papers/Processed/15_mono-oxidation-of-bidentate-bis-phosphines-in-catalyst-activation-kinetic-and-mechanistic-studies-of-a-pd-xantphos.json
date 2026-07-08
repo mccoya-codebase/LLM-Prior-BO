@@ -1,0 +1,26 @@
+{
+    "paper_title": "Mono-Oxidation of Bidentate Bis-phosphines in Catalyst Activation: Kinetic and Mechanistic Studies of a Pd/Xantphos-Catalyzed C-H Functionalization",
+    "reaction_category": "Direct Arylation",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "PdCl2",
+        "ligand": "Xantphos (forms Xantphos mono-oxide in situ)",
+        "base": "KOPiv (potassium pivalate) and DIPEA",
+        "additive": null,
+        "electrophile": "Aryl bromide (ethyl 4-bromo-1-methyl-1H-imidazole-5-carboxylate)",
+        "nucleophile": "C-H substrate (ethyl 1-ethyl-5-nitro-1H-pyrrole-2-carboxylate)",
+        "solvent": "DMAC"
+    },
+    "mechanistic_insights": [
+        "Mono-oxidation of the bidentate phosphine ligand (Xantphos) is essential for forming the active catalyst, which features a hemilabile, bidentate mono-oxide ligand.",
+        "The carboxylate base (e.g., KOPiv) has a dual role: it facilitates precatalyst activation (Pd(II) reduction and phosphine oxidation) and acts as the proton abstractor in the concerted metalation-deprotonation (CMD) step.",
+        "Excess unoxidized Xantphos ligand strongly inhibits the reaction, whereas the corresponding bis-oxide species has no effect on the reaction rate.",
+        "The reaction rate increases with the steric bulk of the carboxylate base (pivalate > isobutyrate > propionate > acetate), which is consistent with a CMD mechanism.",
+        "The reaction is zero-order in the C-H substrate (pyrrole) and the base (KOPiv), but exhibits saturation kinetics with respect to the aryl halide, indicating the catalytic resting state is formed after oxidative addition of the aryl halide."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "PdCl2 (4 mol%), xantphos (4 mol%), KOPiv (1.5 equiv), DIPEA (3 equiv) in DMAC at 95 \u00b0C.",
+        "notes": "The study identifies the catalytically active species as a Pd-xantphos mono-oxide complex, which is formed in situ. The isolated oxidative addition adduct of this species (I-Br) was shown to be catalytically competent, giving the same reaction rate as the standard precatalyst system. The reaction is strongly inhibited by excess unoxidized Xantphos ligand."
+    }
+}

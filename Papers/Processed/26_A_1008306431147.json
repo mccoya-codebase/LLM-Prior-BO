@@ -1,0 +1,20 @@
+{
+    "paper_title": "Efficient Global Optimization of Expensive Black-Box Functions",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This paper describes a general mathematical and statistical algorithm (Efficient Global Optimization, EGO) for optimizing expensive 'black-box' functions. It does not contain any information related to synthetic chemistry, cross-coupling reactions, or chemical reaction optimization. The examples provided are from engineering test functions, integrated circuit design, and material science simulations."
+    }
+}

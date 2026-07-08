@@ -1,0 +1,26 @@
+{
+    "paper_title": "Well-defined NHC\u2013Pd(II)\u2013Im(NHC=N-heterocyclic carbene; Im=1-methylimidazole) complex catalyzed C\u2013N coupling of primary amines with aryl chlorides",
+    "reaction_category": "Buchwald-Hartwig amination",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "NHC-Pd(II)-Im complex 1",
+        "ligand": "IPr (1,3-Bis(2,6-diisopropylphenyl)imidazol-2-ylidene)",
+        "base": "KOtBu",
+        "additive": null,
+        "electrophile": "Aryl chlorides",
+        "nucleophile": "Primary amines (aryl and alkyl)",
+        "solvent": "Toluene"
+    },
+    "mechanistic_insights": [
+        "The reaction is highly sensitive to the base and solvent; KOtBu in toluene was found to be optimal, while other bases (LiOtBu, NaOtBu, NaOH, carbonates, phosphates) were ineffective.",
+        "Increasing the reaction temperature from 70 \u00b0C to refluxing toluene significantly improved the yield from 69% to 95%.",
+        "The NHC-Pd(II)-Im catalyst demonstrates high activity for sterically hindered substrates, successfully coupling ortho-substituted aryl chlorides with ortho-substituted primary anilines to form tetra-ortho-substituted diarylamines in excellent yields (84-99%).",
+        "When using primary alkyl amines (e.g., n-octylamine), bis-amination to form the tertiary amine is a significant competing reaction, often becoming the major product.",
+        "Steric hindrance on the aryl chloride can control selectivity in alkyl amine coupling; the reaction of 2,6-dimethylphenyl chloride with n-octylamine yielded only the mono-aminated product."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "Aryl chloride (0.8 mmol), primary amine (1.2 equiv), NHC-Pd(II)-Im catalyst 1 (1.0 mol%), KOtBu (1.0 mmol) in refluxing toluene (1.0 mL) for 4 hours.",
+        "notes": "The catalytic system is highly efficient, providing good to high yields for a broad range of primary amines and aryl chlorides, including heteroaryl chlorides, within 4 hours. Its most notable feature is the exceptional performance with sterically demanding substrates, which are typically challenging for C-N coupling reactions."
+    }
+}

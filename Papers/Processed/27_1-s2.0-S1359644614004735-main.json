@@ -1,0 +1,26 @@
+{
+    "paper_title": "Active-learning strategies in computer-assisted drug discovery",
+    "reaction_category": "Other/None",
+    "relevance": "None",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "Active learning strategies are divided into 'exploration' (improving the model by adding knowledge) and 'exploitation' (retrieving compounds with predicted high activity).",
+        "Explorative strategies (e.g., uncertainty sampling) rapidly reduce model error and discover novel scaffolds but are not efficient at retrieving highly active compounds.",
+        "Exploitive strategies (e.g., selecting for maximum predicted activity) successfully retrieve highly active compounds but can introduce bias, decrease model quality over time, and get stuck in a narrow chemical space.",
+        "The performance of active learning depends on the quality of the model and data; simple quantitative SAR can outperform exploitation approaches when initial training data is sparse.",
+        "A consensus approach combining multiple selection functions, or an adaptive strategy that switches between exploration and exploitation, can improve robustness and overall performance."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This paper is a review of computational active-learning strategies for drug discovery. It does not contain any experimental synthetic chemistry, reaction conditions, or optimization data. The reported outcomes relate to the performance of machine learning models (e.g., mean squared error, number of scaffolds found) rather than chemical reaction yields."
+    }
+}

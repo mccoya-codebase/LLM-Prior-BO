@@ -1,0 +1,26 @@
+{
+    "paper_title": "The application of design of experiments (DoE) reaction optimisation and solvent selection in the development of new synthetic chemistry",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": null,
+        "ligand": null,
+        "base": "DIPEA",
+        "additive": "NaI",
+        "electrophile": "4-chloropyrimidine",
+        "nucleophile": "3-aminopyrazole",
+        "solvent": "di-n-propyl ether"
+    },
+    "mechanistic_insights": [
+        "In the SNAr case study, high temperatures (>160 \u00b0C) in DMF cause solvent decomposition to dimethylamine, which acts as a competing nucleophile, forming an undesired byproduct.",
+        "Increasing the base (DIPEA) concentration favored the formation of regioisomeric side products (13b, 13c) but did not improve the yield of the desired product (13a), indicating the base should be omitted for better selectivity.",
+        "The additive NaI was found to be detrimental to the yield of the desired SNAr product (13a); increasing its concentration led to a decrease in yield.",
+        "A DoE/PCA study of solvents revealed a strong interaction between principal components. Optimal solvents (DMA and Pr2O) were found in opposite corners of the PCA solvent map, a non-intuitive result that a traditional optimization would likely miss.",
+        "Higher reaction concentration and higher temperature were the most significant factors for improving the yield of the desired SNAr product (13a)."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For the SNAr reaction, the best conditions were 2 equivalents of 3-aminopyrazole with 4-chloropyrimidine in di-n-propyl ether (Pr2O) at 0.5 M, heated to 140 \u00b0C. This provided a 57% isolated yield of the desired product 13a.",
+        "notes": "This paper is a review article on the use of Design of Experiments (DoE) for reaction optimization. The primary case study is an SNAr reaction, not a cross-coupling reaction. The main contribution is the development and application of a new PCA solvent map to systematically explore solvent space, leading to the selection of a non-obvious but highly effective solvent (Pr2O). The initial yield of <20% in DMF was improved to 57% in Pr2O."
+    }
+}

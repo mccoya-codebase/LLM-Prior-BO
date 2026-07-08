@@ -1,0 +1,26 @@
+{
+    "paper_title": "Exploration of flow reaction conditions using machine-learning for enantioselective organocatalyzed Rauhut\u2013Currier and [3+2] annulation sequence",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "(S)-5 (chiral phosphine organocatalyst)",
+        "ligand": null,
+        "base": null,
+        "additive": null,
+        "electrophile": "Dienone derivatives (1)",
+        "nucleophile": "Allenoate derivatives (2)",
+        "solvent": "Toluene"
+    },
+    "mechanistic_insights": [
+        "The reaction is an organocatalyzed domino sequence, initiated by an intramolecular Rauhut-Currier (RC) reaction, followed by an intermolecular [3+2] annulation.",
+        "A micro-mixing flow system is crucial for improving chemical yield by suppressing undesired side reactions, which were prevalent in batch systems.",
+        "The phosphine catalyst adds to the acrylamide terminal of the dienone (1) to generate a chiral enolate, which then undergoes the intramolecular RC reaction.",
+        "The RC reaction produces a highly reactive exo-olefin intermediate (3a), which is subsequently trapped by the allenoate (2a) in the [3+2] annulation step.",
+        "Dilute concentrations in the flow system are important to suppress side reactions involving the highly reactive RC adduct and allenoate."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "For substrate 1a, the optimized conditions were: 20 mol% (S)-5 catalyst, 2.0 equiv. of allenoate 2a in toluene at 80 \u00b0C with a flow rate of 1.7 mL/min. This yielded spiro heterocycle 4a in 76% isolated yield and 94% ee.",
+        "notes": "The study successfully used Gaussian Process Regression (GPR), a machine learning algorithm, to efficiently optimize multiple reaction parameters (flow rate, temperature, stoichiometry) for a flow reaction. This methodology allowed for rapid identification of optimal conditions with a minimum number of experiments, providing access to complex chiral spiro heterocycles in high yields and stereoselectivities within a minute of residence time."
+    }
+}

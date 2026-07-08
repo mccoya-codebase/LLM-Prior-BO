@@ -1,0 +1,26 @@
+{
+    "paper_title": "Recent Advances in C\u2013H Functionalization",
+    "reaction_category": "Direct Arylation",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Pd(OAc)2",
+        "ligand": null,
+        "base": "AgOAc",
+        "additive": "AgOAc",
+        "electrophile": "Alkene",
+        "nucleophile": "4-aryl-1H-pyrrole-3-carboxylate",
+        "solvent": "Toluene or DMF/DMSO"
+    },
+    "mechanistic_insights": [
+        "Solvent polarity can control regioselectivity in the C-H alkenylation of 4-aryl-1H-pyrrole-3-carboxylates. Non-polar toluene favors C-2 alkenylation directed by the ester group, while polar DMF/DMSO favors C-5 alkenylation at the electronically more susceptible site.",
+        "For Ir-catalyzed C-H borylation of aromatic heterocycles, sterically crowded sites are unfavorable, sites adjacent to an N-H group are protected by reversible borylation, and C-H bonds adjacent to an imine react more slowly.",
+        "U-shaped templates can be used as ligands to direct palladium catalysts to achieve meta-C-H functionalization, overcoming the classical preference for ortho-functionalization.",
+        "A norbornene-mediated relay strategy can be combined with ortho-directing groups to achieve overall meta-C-H arylation via a sequence of ortho-palladation, norbornene insertion, and a second C-H activation.",
+        "Weakly coordinating directing groups can enable more efficient catalytic cycles, and the development of 'traceless' directing groups that are easily removed or converted (e.g., 2-pyridyl ether cleaved by borylation) increases synthetic utility."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": true,
+        "best_performing_conditions": "Iridium-catalyzed alkylation of benzamide (29) with diazomalonate (30) using [Cp*IrCl2]2 (2 mol%), AgNTf2 (8 mol%), and AgOAc (4 mol%) achieved 99% yield of the C-H insertion product (31).",
+        "notes": "This paper is an editorial review highlighting 24 recent publications in C-H functionalization. It covers a broad scope of reactions including arylation, alkenylation, and alkylation on both sp2 and sp3 C-H bonds. It discusses numerous strategies for controlling regioselectivity (ortho, meta, para) and the use of various catalysts (Pd, Ru, Rh, Ir, Cu, Fe) and non-metal promoters (t-BuOK)."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "paper_title": "Computational Ligand Descriptors for Catalyst Design",
+    "reaction_category": "Other/None",
+    "relevance": "High",
+    "key_components": {
+        "catalyst": "Review of ligands for various transition metals (Ni, Pd, Au, Pt, Ru, etc.) using model complexes like [Ni(CO)3L] and [PdCl3L]- for descriptor calculation.",
+        "ligand": "Monodentate P(III)-donors (e.g., PPh3, P(tBu)3, JohnPhos, XPhos), bidentate P,P-donors (e.g., dppe, XantPhos, BINAP), and N-heterocyclic carbenes (e.g., IPr, SIPr, IMes).",
+        "base": null,
+        "additive": null,
+        "electrophile": null,
+        "nucleophile": null,
+        "solvent": null
+    },
+    "mechanistic_insights": [
+        "Ligand properties can be quantified using computational descriptors for steric effects (e.g., Tolman cone angle, percent buried volume %Vbur) and electronic effects (e.g., Tolman electronic parameter TEP, molecular electrostatic potential MESP).",
+        "Simple linear relationships between a single descriptor and reaction outcome are rare; multivariate models (MLR, PCA, PLS) are often necessary to capture the combined influence of multiple factors.",
+        "Descriptor transferability is limited. Descriptors calculated for one metal center or coordination environment may not be valid for another (e.g., TEP fails for some gold complexes but works for nickel).",
+        "Principal Component Analysis (PCA) on descriptor databases can generate 'ligand maps' that visualize chemical space, group similar ligands, and reveal fundamental differences between ligand classes (e.g., phosphines vs. carbenes).",
+        "For N-Heterocyclic Carbenes (NHCs), percent buried volume (%Vbur) is a more suitable steric descriptor than the Tolman cone angle due to their less conical shape and more complex steric profile."
+    ],
+    "quantitative_outcomes": {
+        "yields_reported": false,
+        "best_performing_conditions": null,
+        "notes": "This is a review paper summarizing computational methods for generating and applying ligand descriptors to catalyst design and optimization. It does not report new experimental reactions or yields but compiles extensive databases of calculated descriptors for various phosphine and carbene ligands and discusses their application in quantitative structure-activity/selectivity relationship (QSAR/QSSR) models."
+    }
+}
