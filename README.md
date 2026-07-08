@@ -4,8 +4,6 @@
 
 **Reference:**  "Large Language Models as Proxies for Human Experts in Synthesis Optimization"
 
-<img src="./figs/fig1.png" alt="overview" width="500" height="250">
-
 ## Installation
 
 Create anaconda environment for YAML configuration file
